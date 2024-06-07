@@ -1,0 +1,28 @@
+{
+  "name": "roka1901_project_backend_dt190g",
+  "version": "1.0.0",
+  "description": "Café Bars fan page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "db": "mongodb://localhost:27017"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/miun_dt190g/roka1901_project_backend_dt190g.git"
+  },
+  "author": "Robin Kadergran roka1901@student.miun.se",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/miun_dt190g/roka1901_project_backend_dt190g/issues"
+  },
+  "homepage": "https://bitbucket.org/miun_dt190g/roka1901_project_backend_dt190g#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3"
+  }
+}

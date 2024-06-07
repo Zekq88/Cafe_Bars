@@ -1,0 +1,204 @@
+{
+    "beer": [
+      {
+        "name": "Carlsberg",
+        "type": "Lager",
+        "information": "Carlsberg is a Pilsner-style lager originating from Denmark.",
+        "grade": "Fyra Kenta"
+      },
+      {
+        "name": "Guinness",
+        "type": "Stout",
+        "information": "Guinness is a famous Irish dry stout known for its dark color and creamy head.",
+        "grade": "Tre Kenta"
+      },
+      {
+        "name": "Heineken",
+        "type": "Pale Lager",
+        "information": "Heineken is a pale lager beer produced by the Dutch brewing company Heineken International.",
+        "grade": "Fem Kenta"
+      },
+      {
+        "name": "Corona",
+        "type": "Pale Lager",
+        "information": "Corona is a pale lager produced by Grupo Modelo in Mexico.",
+        "grade": "Två Kenta"
+      },
+      {
+        "name": "Budweiser",
+        "type": "American Lager",
+        "information": "Budweiser is an American-style pale lager produced by Anheuser-Busch.",
+        "grade": "Fyra Kenta"
+      },
+      {
+        "name": "Tuborg",
+        "type": "Pilsner",
+        "information": "Tuborg is a Danish brewing company founded in 1873 in Hellerup, Denmark.",
+        "grade": "En Kenta"
+      },
+      {
+        "name": "Stella Artois",
+        "type": "Pale Lager",
+        "information": "Stella Artois is a Belgian pilsner beer.",
+        "grade": "Tre Kenta"
+      },
+      {
+        "name": "Beck's",
+        "type": "Pilsner",
+        "information": "Beck's Brewery, also known as Brauerei Beck & Co., is a brewery in the northern German city of Bremen.",
+        "grade": "Fem Kenta"
+      },
+      {
+        "name": "Pilsner Urquell",
+        "type": "Pilsner",
+        "information": "Pilsner Urquell is a Czech lager brewed in Plzeň.",
+        "grade": "Två Kenta"
+      },
+      {
+        "name": "Peroni",
+        "type": "Pale Lager",
+        "information": "Peroni Brewery is a brewing company, founded by Francesco Peroni in Vigevano, Italy, in 1846.",
+        "grade": "En Kenta"
+      },
+      {
+        "name": "Asahi",
+        "type": "Pale Lager",
+        "information": "Asahi Breweries, Ltd. is a Japanese global beer, spirits, soft drinks and food business group.",
+        "grade": "Fem Kenta"
+      },
+      {
+        "name": "Sapporo",
+        "type": "Pale Lager",
+        "information": "Sapporo Breweries Ltd. is a Japanese beer brewing company founded in 1876.",
+        "grade": "Tre Kenta"
+      },
+      {
+        "name": "Kirin",
+        "type": "Pale Lager",
+        "information": "Kirin Brewery Company, Limited is a Japanese integrated beverages company.",
+        "grade": "En Kenta"
+      },
+      {
+        "name": "Tsingtao",
+        "type": "Pale Lager",
+        "information": "Tsingtao Brewery Co., Ltd. is China's second-largest brewery.",
+        "grade": "Två Kenta"
+      },
+      {
+        "name": "Efes",
+        "type": "Pale Lager",
+        "information": "Anadolu Efes Biracılık ve Malt Sanayi A.Ş. is a major Turkish brewery.",
+        "grade": "Fyra Kenta"
+      },
+      {
+        "name": "Brooklyn Lager",
+        "type": "Amber Lager",
+        "information": "Brooklyn Lager is a direct descendant of the pre-Prohibition favorite Vienna lager style.",
+        "grade": "Tre Kenta"
+      },
+      {
+        "name": "Anchor Steam Beer",
+        "type": "California Common",
+        "information": "Anchor Brewing Company is an American alcoholic beverage producer, operating a brewery and distillery on Potrero Hill in San Francisco, California.",
+        "grade": "Fem Kenta"
+      },
+      {
+        "name": "Sierra Nevada Pale Ale",
+        "type": "Pale Ale",
+        "information": "Sierra Nevada Pale Ale is a pale ale brewed by Sierra Nevada Brewing Co. in Chico, California.",
+        "grade": "En Kenta"
+      },
+      {
+        "name": "Stone IPA",
+        "type": "India Pale Ale",
+        "information": "Stone Brewing is a brewery headquartered in Escondido, California, USA.",
+        "grade": "Två Kenta"
+      },
+      {
+        "name": "La Fin du Monde",
+        "type": "Tripel",
+        "information": "La Fin du Monde is a Belgian-style tripel ale brewed by Unibroue, a brewery in Chambly, Quebec, Canada.",
+        "grade": "Tre Kenta"
+      },
+      {
+        "name": "Chimay Blue",
+        "type": "Strong Dark Ale",
+        "information": "Chimay Brewery is a brewery at Scourmont Abbey, a Trappist monastery in Chimay, Hainaut, Belgium.",
+        "grade": "Fyra Kenta"
+      },
+      {
+        "name": "Duvel",
+        "type": "Belgian Golden Strong Ale",
+        "information": "Duvel is a strong golden ale brewed by Duvel Moortgat Brewery in Belgium.",
+        "grade": "En Kenta"
+      },
+      {
+        "name": "Westvleteren 12",
+        "type": "Quadrupel",
+        "information": "Westvleteren Brewery is a Belgian brewery founded in 1838 inside the Trappist Abbey of Saint Sixtus of Westvleteren in Vleteren, Belgium.",
+        "grade": "Fem Kenta"
+      },
+      {
+        "name": "Weihenstephaner Hefeweissbier",
+        "type": "Hefeweizen",
+        "information": "Bayerische Staatsbrauerei Weihenstephan is a German brewery.",
+        "grade": "Tre Kenta"
+      },
+      {
+        "name": "Paulaner Hefe-Weißbier",
+        "type": "Hefeweizen",
+        "information": "Paulaner is a German brewery, established in the early 17th century in Munich.",
+        "grade": "En Kenta"
+      },
+      {
+        "name": "Schneider Weisse",
+        "type": "Weissbier",
+        "information": "Schneider Weisse is a brand of wheat beer from the Schneider-Bräuhaus in Kelheim, Germany.",
+        "grade": "Två Kenta"
+      },
+      {
+        "name": "Augustiner Bräu Lagerbier Hell",
+        "type": "Helles",
+        "information": "Augustiner-Bräu is a brewery located in Munich, Germany.",
+        "grade": "Fyra Kenta"
+      },
+      {
+        "name": "Ayinger Celebrator Doppelbock",
+        "type": "Doppelbock",
+        "information": "Ayinger Brewery is a brewery in Aying, Bavaria, Germany.",
+        "grade": "En Kenta"
+      },
+      {
+        "name": "Rochefort 10",
+        "type": "Quadrupel",
+        "information": "Rochefort Brewery is a Belgian brewery which produces three beers designated as Trappist beers.",
+        "grade": "Fem Kenta"
+      },
+      {
+        "name": "Bud Light",
+        "type": "Light Lager",
+        "information": "Bud Light is a light beer brewed by Anheuser-Busch.",
+        "grade": "En Kenta"
+      }
+    ],
+    
+    
+    "grade": [
+      {
+          "0" : "En Kenta"
+      },
+      {
+          "1" : "Två Kenta"
+      },
+      {
+          "2": "Tre Kenta"
+      },
+      {
+          "3": "Fyra Kenta"
+      },
+      {
+          "4": "Fem Kenta"
+      }
+    ]
+  }
+  

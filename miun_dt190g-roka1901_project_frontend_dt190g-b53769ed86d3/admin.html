@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <Head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <title>Café Bärs</title>
+        <script src="js/script.js"></script>
+        <Link rel="stylesheet" type="text/css" href="css/style.css">
+    </Head>
+    <body>
+        <main>
+            <div id="header">
+                <h1>Admin page for Café Bärs</h1>
+                <ul>
+                    <li><a href="index.html"> <b>Tillbaka till Café Bärs</b> </a></li>
+                    
+                </ul>  
+            </div>
+            <div class="pimp1">
+                    <div class="adminBir">
+                        <form id="addNewBir">
+                        <dl >
+                            <dt>Lägg till en Bärs</dt>
+                            <dd><label>Namn: <input type="text" id="birName" placeholder="Arboga"></label></dd>
+                            <dd><label>Typ: <input type="text" id="birType" placeholder="Lager"></label></dd>
+                            <dd><label>Infomation: <input type="text" id="birInfo" placeholder="info"></label></dd>
+                            <dd><label>Betyg: <select id="birGrades"></select></label></dd>
+                            
+                            <dd ><button type="submit" id="addBir">Ny Bärs till Bärs Bibeln</button></dd>
+                        </dl>
+                    </form>
+                    
+                    <form id="delBir">
+                    <dl >
+                        <dt>Tabort en Bärs</dt>
+                        <dd><label>Namn: <input type="text" id="birNameDel" placeholder="Arboga"></label></dd>
+                        
+                        <dd ><button type="submit" id="deleBir">Tabort Bärs ur Bärs Bibeln</button></dd>
+                    </dl>
+                </form>
+
+                <form id="editBir">
+                    <dl >
+                        <dt>Updatera en Bärs</dt>
+                        <dd><label>Namn: <input type="text" id="birNameUp" placeholder="Arboga"></label></dd>
+                        <dd><label>Betyg: <select id="birGradesUp"></select></label></dd>
+                        
+                        <dd ><button type="submit" id="upBir">Updatera Bärs i Bärs Bibeln</button></dd>
+                    </dl>
+                </form>
+
+            </div>
+                
+            </div>
+        </main>
+        <footer>
+            <Section class="section">
+                <h2>Använd de olika verktygen</h2>
+                
+                <p>Använd verktygen till att lägga till, uppdatera eller ta bort en bärs. </p>
+                <p>&copy; 2024 Your Website. All rights reserved.</p>
+            </section>
+        </footer>
+    </body>
+    </html>

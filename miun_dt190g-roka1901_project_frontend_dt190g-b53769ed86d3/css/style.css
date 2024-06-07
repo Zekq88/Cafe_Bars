@@ -1,0 +1,170 @@
+h1{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(24, 83, 24, 0.932);
+    font-family: cursive;
+    z-index: 10;}
+h3{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    font-family: cursive;
+    z-index: 10;}  
+
+ul{
+    text-align: right;
+    position: fixed;
+    top: 10px;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    font-family: cursive;
+    z-index: 10;
+}
+li{
+    
+    display: inline;
+    padding-right: 2.5%;
+    font-family: cursive;
+
+}
+    
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: cursive;
+    color: #110d0d;
+    font-weight: 400;
+    line-height: 1.8em;
+    background-color:   rgba(24, 83, 24, 0.932);
+}
+.pimp1, .pimp2, .pimp3, .pimp4, .pimp5, .pimp6 {
+    height: 750px;
+    position: relative;
+    opacity: 0,20;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.pimp1{
+    background-image: url("../img/p6.jpg");
+    min-height: 80%;
+    
+}
+
+.pimp2{
+    background-image: url("../img/p2.png");
+    min-height: 80%;
+}
+
+.pimp3{
+    background-image: url("../img/p3.png");
+    min-height: 80%;
+}
+.pimp4{
+    background-image: url("../img/p4.jpeg");
+    min-height: 80%;
+}
+.pimp5{
+    background-image: url("../img/p1.jpg");
+    min-height: 80%;
+}
+
+.section{
+    text-align: center;
+}
+
+#border1 {
+    padding-top: 53px;
+}
+
+dl{
+    text-decoration: none;
+    color: antiquewhite; 
+    float: left;
+}
+dd {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a:link:active, a:visited:active {
+    color: inherit;
+  }
+
+  #fiveKenta {
+ 
+ padding-left: 55%;
+  }
+
+  #fourKenta{
+    padding-left: 5%;
+  }
+
+  #treKenta{
+    padding-left: 5%;
+  }
+
+  #twoKenta{
+    padding-left: 5%;
+  }
+  #oneKenta{
+    padding-left: 5%;
+  }
+
+.nyBir{
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+  #newBir{
+    width: 250px;
+    padding: 10px;
+    background-color:  rgba(24, 83, 24, 0.932);
+    margin: 1%;
+    box-shadow: 1px 1px 10px 5px black;
+    float: left;
+}
+
+#birInfo, #bbirInfoUp{
+    height: 50px;
+}
+
+#addNewBir, #delBir, #editBir{
+
+        width: 250px;
+        padding: 10px;
+        background-color:  rgba(24, 83, 24, 0.932);
+        margin: 1%;
+        box-shadow: 1px 1px 10px 5px black;
+        float: left;
+    
+}
+
+#bärsBibeln, #läggTillBärs, #GoaGubbar{
+padding-bottom: 50px;
+}
+
+.adminBir{
+    padding-left: 25%;
+    padding-top: 10%;
+  }
+
+
