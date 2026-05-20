@@ -19,8 +19,8 @@ app.use(express.urlencoded({extended: false}));
 
 
 
-const MongoClient = require('mongodb').MongoClient;
-const url = "mongodb+srv://dt190g-roka1901:1618033989@dt190g-cluster.zxzg3uh.mongodb.net/bira-db?retryWrites=true&w=majority&appName=dt190g-cluster";
+// const MongoClient = require('mongodb').MongoClient;
+// const url = "mongodb+srv://dt190g-roka1901:1618033989@dt190g-cluster.zxzg3uh.mongodb.net/bira-db?retryWrites=true&w=majority&appName=dt190g-cluster";
 
   /**
  * The port on which the Express server will listen for incoming requests.
@@ -30,9 +30,13 @@ const url = "mongodb+srv://dt190g-roka1901:1618033989@dt190g-cluster.zxzg3uh.mon
 
 //Riktiga MongoDB
 //mongoose.connect('mongodb+srv://dt190g-roka1901:1618033989@dt190g-cluster.zxzg3uh.mongodb.net/bira-db')
-mongoose.connect(url)
+const mongoUrl = process.env.MONGO_URL || "mongodb://localhost:27017/cafebars";
+mongoose.connect(mongoUrl)
+// mongoose.connect(url)
 .then(() => {
     // Start server, binding it to specified port
+  //  app.use(express.urlencoded({ extended: true }))
+  //  .then(() => {
 app.listen(port, function() {
     // Log a message when server is successfully started
 

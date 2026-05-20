@@ -1,7 +1,7 @@
 services:
   frontend:
     build:
-      context: .frontend
+      context: ./frontend
     container_name: cafe-bars-frontend
     ports:
       - 8090:80
@@ -14,3 +14,14 @@ services:
     container_name: cafe-bars-backend
     ports:
       - "3000:3000"
+
+  mongo:
+    image: mongo:7
+    container_name: cafe-bars-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
