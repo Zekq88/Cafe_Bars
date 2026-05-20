@@ -1,8 +1,8 @@
 
-const baseUrl = "https://roka1901-project-backend-dt190g-ht23.azurewebsites.net/api/v1/";
-const beerUrl = 'https://roka1901-project-backend-dt190g-ht23.azurewebsites.net/api/v1/beers';
-//var baseUrl = "http://localhost:3000/api/v1/";
-//const beerUrl = "http://localhost:3000/api/v1/beers";
+// const baseUrl = "https://roka1901-project-backend-dt190g-ht23.azurewebsites.net/api/v1/";
+// const beerUrl = 'https://roka1901-project-backend-dt190g-ht23.azurewebsites.net/api/v1/beers';
+const baseUrl = "http://localhost:3000/api/v1/";
+const beerUrl = "http://localhost:3000/api/v1/beers";
 //const  baseUrl = "mongodb://localhost:27017/api/v1/";
 //const beerUrl = "mongodb://localhost:27017/api/v1/beers"
 

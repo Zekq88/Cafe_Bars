@@ -20,7 +20,7 @@
   "homepage": "https://bitbucket.org/miun_dt190g/roka1901_project_backend_dt190g#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.6.1",
     "express": "^4.19.1",
     "mongodb": "^6.5.0",
     "mongoose": "^8.2.3"

@@ -30,14 +30,14 @@ app.use(express.urlencoded({extended: false}));
 
 //Riktiga MongoDB
 //mongoose.connect('mongodb+srv://dt190g-roka1901:1618033989@dt190g-cluster.zxzg3uh.mongodb.net/bira-db')
-const mongoUrl = process.env.MONGO_URL || "mongodb://localhost:27017/cafebars";
+const mongoUrl = process.env.MONGO_URL;
 mongoose.connect(mongoUrl)
 // mongoose.connect(url)
 .then(() => {
     // Start server, binding it to specified port
   //  app.use(express.urlencoded({ extended: true }))
   //  .then(() => {
-app.listen(port, function() {
+app.listen(port, "0.0.0.0", function() {
     // Log a message when server is successfully started
 
   
@@ -94,6 +94,7 @@ app.get('/', function(req, res) {
 app.get('/api/v1/beers', async (req, res) => {
     try{
         const beers = await beerSchema.find({});
+        console.log("mongo öl")
         res.status(200).json(beers);
     }catch(error){
         res.status(500).json({message: error.message});
