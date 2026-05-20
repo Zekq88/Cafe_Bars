@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build:
+      context: .frontend
+    container_name: cafe-bars-frontend
+    ports:
+      - 8090:80
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend
+    container_name: cafe-bars-backend
+    ports:
+      - "3000:3000"
